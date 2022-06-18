@@ -17,6 +17,24 @@
 		<java.version>1.8</java.version>
 	</properties>
 	<dependencies>
+		<!-- jquery -->
+		<dependency>
+		<groupId>org.webjars</groupId>
+		<artifactId>jquery</artifactId>
+		<version>3.5.1</version>
+		</dependency>
+		<!-- bootstrap -->
+		<dependency>
+		<groupId>org.webjars</groupId>
+		<artifactId>bootstrap</artifactId>
+		<version>4.5.3</version>
+		</dependency>
+		<!--webjars-locator -->
+		<dependency>
+		<groupId>org.webjars</groupId>
+		<artifactId>webjars-locator</artifactId>
+		<version>0.40</version>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jdbc</artifactId>
